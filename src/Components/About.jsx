@@ -4,13 +4,22 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 const AboutPage = () => {
   return (
+    <>
     <div className="container my-5">
-      <h2>About Company</h2>
+      <h2 style={{display:"flex", justifyContent:"center",marginBottom:"30px"}}>About Company</h2>
       <div className="row">
         <div className="col-md-6">
-          <div className="card mb-4">
-            <div className="card-body">
-              <h4 className="card-title">History</h4>
+              <h4>History</h4>
+              <h5>Medium length headline</h5>
+              <p>
+                Lorem ipsum dolor sit amet et delicato accommodare for casual
+                companies.
+              </p>
+            
+          
+        </div>
+        <div className="col-md-6" id='mission'>
+              <h4>Mission Statement</h4>
               <h5>Medium length headline</h5>
               <p>
                 Lorem ipsum dolor sit amet et delicato accommodare for casual
@@ -18,25 +27,11 @@ const AboutPage = () => {
               </p>
             </div>
           </div>
-        </div>
-        <div className="col-md-6">
-          <div className="card mb-4">
-            <div className="card-body">
-              <h4 className="card-title">Mission Statement</h4>
-              <h5>Medium length headline</h5>
-              <p>
-                Lorem ipsum dolor sit amet et delicato accommodare for casual
-                companies.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div className="container my-5">
-      <h2>Team</h2>
+      <h2 style={{display:"flex", justifyContent:"center"}}>Team</h2>
       <div>
         <Carousel
+          className="custom-carousel"
           controls={true}  
           indicators={true}  
           prevIcon={<FaArrowLeft size={30} />} 
@@ -44,36 +39,30 @@ const AboutPage = () => {
         >
           <Carousel.Item>
             <div className="d-flex justify-content-center">
-              <div className="card text-center">
-                <div className="card-body">
-                  <h5 className="card-title">Name Surname 1</h5>
-                  <p className="card-text">Company</p>
-                  <p>Lorem ipsum dolor sit amet et delicato accommodare for casual companies.</p>
-                </div>
-              </div>
-            </div>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <div className="d-flex justify-content-center">
-              <div className="card text-center">
-                <div className="card-body">
-                  <h5 className="card-title">Name Surname 2</h5>
-                  <p className="card-text">Company</p>
-                  <p>Lorem ipsum dolor sit amet et delicato accommodare for casual companies.</p>
-                </div>
-              </div>
-            </div>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <div className="d-flex justify-content-center">
-              <div className="card text-center">
-                <div className="card-body">
+              <div className="text-center">
                   <h5 className="card-title">Name Surname 3</h5>
                   <p className="card-text">Company</p>
                   <p>Lorem ipsum dolor sit amet et delicato accommodare for casual companies.</p>
-                </div>
+              </div>
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className="d-flex justify-content-center">
+              <div className="text-center">
+                  <h5 className="card-title">Name Surname 3</h5>
+                  <p className="card-text">Company</p>
+                  <p>Lorem ipsum dolor sit amet et delicato accommodare for casual companies.</p>
+              </div>
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className="d-flex justify-content-center">
+              <div className="text-center">
+                  <h5 className="card-title">Name Surname 3</h5>
+                  <p className="card-text">Company</p>
+                  <p>Lorem ipsum dolor sit amet et delicato accommodare for casual companies.</p>
               </div>
             </div>
           </Carousel.Item>
@@ -89,7 +78,7 @@ const AboutPage = () => {
             Lorem ipsum dolor sit amet et delicato accommodare for casual companies.
           </p>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6" id='mission'>
           <h2>Partnership</h2>
           <h5>Medium length headline</h5>
           <p>
@@ -98,6 +87,7 @@ const AboutPage = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
