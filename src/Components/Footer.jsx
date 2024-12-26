@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import img1 from  "./Screenshot__112_-removebg-preview.png";
 const Footer = () => {
   return (
     <footer className="bg-dark text-white py-5">
@@ -11,6 +12,9 @@ const Footer = () => {
               <small>
                 Please note: Due to high call volumes, our phone lines may close earlier than posted times in order to accommodate those already waiting in queue.
               </small>
+              <div className="footer-image">
+              <img src={img1} height={200} width={300} alt="Footer Logo" style={{margin:"60px"}} />
+            </div>
           </div>
           <div className="col-md-3">
             <h5>Quick Links</h5>
@@ -36,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="row mt-4">
+        <div className="row mt-4" style={{borderTop:"1px solid white"}}>
           <div className="col-md-6 offset-md-6">
             <h5>Keep in Touch</h5>
             <form className="d-flex">
@@ -45,7 +49,7 @@ const Footer = () => {
                 className="form-control me-2"
                 placeholder="Enter your email"
               />
-              <button className="btn btn-danger" type="submit">GO</button>
+              <button className="btn" type="submit" style={{backgroundColor:"ActiveBorder" , color:"white"}}>GO</button>
             </form>
             <div className="social-links mt-3">
               <a href="tt" className="text-white me-3"><FaFacebookF /></a>

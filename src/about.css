@@ -51,8 +51,11 @@
     margin: 50px 0 150px 0;
 }
 .custom-carousel .carousel-indicators {
-    bottom: -50px; /* Adjust this value to move the indicators up or down */
+    bottom: -50px;
   }
 #mission{
     padding: 65px 0;
+}
+.text{
+    text-decoration: none;
 }

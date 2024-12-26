@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 const PricingPlans = () => {
   const [isMonthly, setIsMonthly] = useState(true);
-
   return (
     <section className="pricing-section py-5 bg-light">
       <div className="container text-center">
@@ -29,7 +27,7 @@ const PricingPlans = () => {
         <div className="row">
           <div className="col-md-4 mb-4">
             <div className="card h-100">
-              <div className="card-body">
+              <div className="card-body" style={{display:"flex", justifyContent:"space-between", flexDirection:"column"}}>
                 <h5 className="card-title">Tagline</h5>
                 <h3 className="card-price">
                   ${isMonthly ? '99' : '999'}
@@ -40,14 +38,14 @@ const PricingPlans = () => {
                   <li>Feature text goes here</li>
                   <li>and more</li>
                 </ul>
-                <a href="tt" className="btn btn-primary">Button</a>
+                <Link style={{display:"flex", justifyContent:"center"}} to="tt" className="btn btn-primary">Button</Link>
               </div>
             </div>
           </div>
 
           <div className="col-md-4 mb-4">
             <div className="card h-100">
-              <div className="card-body">
+              <div className="card-body" style={{display:"flex", justifyContent:"space-between", flexDirection:"column"}}>
                 <h5 className="card-title">Tagline</h5>
                 <h3 className="card-price">
                   ${isMonthly ? '99' : '999'}
@@ -61,14 +59,14 @@ const PricingPlans = () => {
                   <li>Feature text goes here</li>
                   <li>and more</li>
                 </ul>
-                <a href="tt" className="btn btn-primary">Button</a>
+                <Link to="tt" className="btn btn-primary">Button</Link>
               </div>
             </div>
           </div>
 
           <div className="col-md-4 mb-4">
             <div className="card h-100">
-              <div className="card-body">
+              <div className="card-body" style={{display:"flex", justifyContent:"space-between", flexDirection:"column"}}>
                 <h5 className="card-title">Tagline</h5>
                 <h3 className="card-price">
                   ${isMonthly ? '99' : '999'}
@@ -76,15 +74,8 @@ const PricingPlans = () => {
                 <ul className="list-unstyled my-4">
                   <li>Feature text goes here</li>
                   <li>Feature text goes here</li>
-                  <li>Feature text goes here</li>
-                  <li>Feature text goes here</li>
-                  <li>Feature text goes here</li>
-                  <li>Feature text goes here</li>
-                  <li>Feature text goes here</li>
-                  <li>Feature text goes here</li>
-                  
                 </ul>
-                <a href="tt" className="btn btn-primary">Button</a>
+                <Link to="tt" className="btn btn-primary">Button</Link>
               </div>
             </div>
           </div>

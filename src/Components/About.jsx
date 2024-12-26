@@ -12,8 +12,7 @@ const AboutPage = () => {
               <h4>History</h4>
               <h5>Medium length headline</h5>
               <p>
-                Lorem ipsum dolor sit amet et delicato accommodare for casual
-                companies.
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eius reprehenderit fugiat repudiandae accusamus nihil sit, impedit ex inventore non! Pariatur atque ipsum ratione eum laudantium quae maiores sapiente tenetur.      companies.
               </p>
             
           
@@ -22,8 +21,7 @@ const AboutPage = () => {
               <h4>Mission Statement</h4>
               <h5>Medium length headline</h5>
               <p>
-                Lorem ipsum dolor sit amet et delicato accommodare for casual
-                companies.
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eius reprehenderit fugiat repudiandae accusamus nihil sit, impedit ex inventore non! Pariatur atque ipsum ratione eum laudantium quae maiores sapiente tenetur.      companies.
               </p>
             </div>
           </div>
@@ -42,7 +40,7 @@ const AboutPage = () => {
               <div className="text-center">
                   <h5 className="card-title">Name Surname 3</h5>
                   <p className="card-text">Company</p>
-                  <p>Lorem ipsum dolor sit amet et delicato accommodare for casual companies.</p>
+                  <p style={{marginRight:"120px", marginLeft:"120px"}}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eius reprehenderit fugiat repudiandae accusamus nihil sit, impedit ex inventore non! Pariatur atque ipsum ratione eum laudantium quae maiores sapiente tenetur.</p>
               </div>
             </div>
           </Carousel.Item>
@@ -52,8 +50,7 @@ const AboutPage = () => {
               <div className="text-center">
                   <h5 className="card-title">Name Surname 3</h5>
                   <p className="card-text">Company</p>
-                  <p>Lorem ipsum dolor sit amet et delicato accommodare for casual companies.</p>
-              </div>
+                  <p style={{marginRight:"120px", marginLeft:"120px"}}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eius reprehenderit fugiat repudiandae accusamus nihil sit, impedit ex inventore non! Pariatur atque ipsum ratione eum laudantium quae maiores sapiente tenetur.</p>              </div>
             </div>
           </Carousel.Item>
 
@@ -62,8 +59,7 @@ const AboutPage = () => {
               <div className="text-center">
                   <h5 className="card-title">Name Surname 3</h5>
                   <p className="card-text">Company</p>
-                  <p>Lorem ipsum dolor sit amet et delicato accommodare for casual companies.</p>
-              </div>
+                  <p style={{marginRight:"120px", marginLeft:"120px"}}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eius reprehenderit fugiat repudiandae accusamus nihil sit, impedit ex inventore non! Pariatur atque ipsum ratione eum laudantium quae maiores sapiente tenetur.</p>              </div>
             </div>
           </Carousel.Item>
         </Carousel>
@@ -75,14 +71,14 @@ const AboutPage = () => {
           <h2>Clients</h2>
           <h5>Medium length headline</h5>
           <p>
-            Lorem ipsum dolor sit amet et delicato accommodare for casual companies.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eius reprehenderit fugiat repudiandae accusamus nihil sit, impedit ex inventore non! Pariatur atque ipsum ratione eum laudantium quae maiores sapiente tenetur.
           </p>
         </div>
         <div className="col-md-6" id='mission'>
           <h2>Partnership</h2>
           <h5>Medium length headline</h5>
           <p>
-            Lorem ipsum dolor sit amet et delicato accommodare for casual companies.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eius reprehenderit fugiat repudiandae accusamus nihil sit, impedit ex inventore non! Pariatur atque ipsum ratione eum laudantium quae maiores sapiente tenetur.
           </p>
         </div>
       </div>

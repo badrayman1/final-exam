@@ -1,11 +1,12 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import img1 from  "./Screenshot__111_-removebg.png";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light px-4">
       <Link className="navbar-brand" to="/" style={{fontSize:"30px",fontWeight:"bold",color:"black",letterSpacing:"2px"}} >
-        BREMBLO
+       <img src={img1} height={80} width={250} alt="" />
       </Link>
       <div className="collapse navbar-collapse" style={{margin:"20px",display:"flex", justifyContent:"space-around"}}>
         <ul className="navbar-nav mr-auto">
